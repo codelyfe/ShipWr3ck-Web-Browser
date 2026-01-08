@@ -96,7 +96,7 @@ Located in the top-right corner:
 
 ## 🔒 Privacy & Security Features
 
-ShipWr3ck includes extensive privacy controls to protect your identity and prevent tracking. All privacy features can be toggled from the secondary menu (click the menu icon in the top bar).
+ShipWr3ck Web Browser includes extensive privacy controls to protect your identity and prevent tracking. All privacy features can be toggled from the secondary menu (click the menu icon in the top bar).
 
 ### Privacy Toggles
 
@@ -162,7 +162,7 @@ Configure proxy settings in Settings:
 
 ## 🛠️ Built-in Tools & Apps
 
-ShipWr3ck includes several built-in applications accessible from the secondary menu:
+ShipWr3ck Web Browser includes several built-in applications accessible from the secondary menu:
 
 ### Available Apps
 
@@ -764,7 +764,7 @@ ai explain how JavaScript closures work
 
 ## 🔐 Encrypted Notes
 
-ShipWr3ck includes a built-in encrypted notes feature that allows you to securely store notes with optional password protection. Access it by clicking the Notes button in the secondary menu.
+ShipWr3ck Web Browser includes a built-in encrypted notes feature that allows you to securely store notes with optional password protection. Access it by clicking the Notes button in the secondary menu.
 
 ### Getting Started
 
@@ -1114,8 +1114,8 @@ MIT
 
 ---
 
-**ShipWr3ck Browser - The Best Damn Browser**  
-Version 1.0.0
+**ShipWr3ck Web Browser - The Best Damn Browser**  
+Version 1.0.0 - Beta
 
 
 Terminal - CMDS
