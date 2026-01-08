@@ -1,29 +1,29 @@
-# ShipWr3ck Browser - Complete User Guide
+# ShipWr3ck Web Browser - Complete User Guide
 
 Welcome to ShipWr3ck, a powerful privacy-focused browser with advanced customization and built-in tools.
 
 ## 📋 Table of Contents
 
-- [Browser Overview](#browser-overview)
-- [User Interface](#user-interface)
-- [Tab Management](#tab-management)
-- [Privacy & Security Features](#privacy--security-features)
-- [Built-in Tools & Apps](#built-in-tools--apps)
-- [EditWhat (C0D3LYF3) - Advanced Text Editor](#editwhat-c0d3lyf3---advanced-text-editor)
-- [AI Assistant - Integrated AI Chat](#ai-assistant---integrated-ai-chat)
-- [Terminal - Logical Terminal](#terminal---logical-terminal)
-- [Encrypted Notes](#encrypted-notes)
-- [Code Bank (MyRepos) - Repository Browser](#-code-bank-myrepos---repository-browser)
-- [Settings & Customization](#settings--customization)
-- [Dashboard & Speed Dial](#dashboard--speed-dial)
-- [Downloads & Files](#downloads--files)
-- [Tips & Tricks](#tips--tricks)
+- [Browser Overview]
+- [User Interface]
+- [Tab Management]
+- [Privacy & Security Features]
+- [Built-in Tools & Apps]
+- [EditWhat (C0D3LYF3) - Advanced Text Editor]
+- [AI Assistant - Integrated AI Chat]
+- [Terminal - Logical Terminal]
+- [Encrypted Notes]
+- [Code Bank (MyRepos) - Repository Browser]
+- [Settings & Customization]
+- [Dashboard & Speed Dial]
+- [Downloads & Files]
+- [Tips & Tricks]
 
 ---
 
 ## 🌐 Browser Overview
 
-ShipWr3ck is a privacy-focused web browser built on Electron/Chromium technology. It combines the power of Chromium's rendering engine with advanced privacy controls, built-in tools, and a customizable interface.
+ShipWr3ck Web Browser is a privacy-focused web browser built on Electron/Chromium technology. It combines the power of Chromium's rendering engine with advanced privacy controls, built-in tools, and a customizable interface.
 
 ### Key Features
 
