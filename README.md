@@ -183,6 +183,8 @@ ShipWr3ck Web Browser includes several built-in applications accessible from the
 
 ## 📝 EditWhat (C0D3LYF3) - Advanced Text Editor
 
+![editwhat](https://i.ibb.co/gZCY9VLP/04.png)
+
 EditWhat is a powerful code editor built into ShipWr3ck, featuring CodeMirror with syntax highlighting, multiple themes, 100+ built-in commands, and an integrated AI Assistant for rapid development.
 
 ### Key Features
@@ -562,6 +564,8 @@ The status indicator in the chat panel header shows:
 ---
 
 ## 💻 Terminal - Logical Terminal v1.0.0
+
+![terminal](https://i.ibb.co/tPFJhFFn/03.png)
 
 The Terminal is a powerful command-line interface built into ShipWr3ck, providing access to 50+ utility commands, games, API tools, and more. Access it from the secondary menu or by opening a new tab.
 
