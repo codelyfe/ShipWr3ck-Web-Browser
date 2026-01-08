@@ -1,6 +1,8 @@
 # ShipWr3ck Web Browser - Complete User Guide
 
-Welcome to ShipWr3ck Web Browser, a powerful privacy-focused browser with advanced customization and built-in tools. - TEASER: https://www.youtube.com/watch?v=Yb7EscDnlvE
+Welcome to ShipWr3ck Web Browser, a powerful privacy-focused browser with advanced customization and built-in tools. 
+
+## TEASER: https://www.youtube.com/watch?v=Yb7EscDnlvE
 
 ## 📋 Table of Contents
 
