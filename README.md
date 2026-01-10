@@ -2,7 +2,7 @@
 
 Welcome to ShipWr3ck Web Browser, a powerful privacy-focused browser with advanced customization and built-in tools. 
 
-## TEASER: https://www.youtube.com/watch?v=Yb7EscDnlvE
+## TEASER: https://youtu.be/XxQKFL1Tcug
 
 ## 📋 Table of Contents
 
@@ -51,8 +51,19 @@ ShipWr3ck Web Browser is a privacy-focused web browser built on Electron/Chromiu
 The address bar (also called URL bar) is where you type website addresses or search terms. It supports:
 
 - Direct URL entry (e.g., `https://example.com`)
+- **Localhost Support:** Direct access to local servers (e.g., `localhost`, `127.0.0.1`, `localhost:3000`)
 - Search queries (searches using your default search engine)
 - Quick navigation shortcuts
+- **Loading Indicator:** Visual spinner appears in the address bar while pages are loading
+
+### Navigation Controls
+
+Located in the top bar:
+
+- **Back:** Navigate to the previous page
+- **Forward:** Navigate to the next page
+- **Reload:** Refresh the current page (appears when page is not loading)
+- **Stop:** Stop loading the current page (appears while page is loading)
 
 ### Zoom Controls
 
@@ -92,6 +103,8 @@ Located in the top-right corner:
 
 **Tab Blur:** Enable "Blur Tab Titles" from the secondary menu to blur tab titles for privacy when others can see your screen.
 
+**Page Content Blur:** Enable "Blur Page Content" from the secondary menu to blur all text and images on the current page for privacy. This is useful when you need to quickly hide sensitive content from others viewing your screen.
+
 ---
 
 ## 🔒 Privacy & Security Features
@@ -114,6 +127,7 @@ ShipWr3ck Web Browser includes extensive privacy controls to protect your identi
 | **Redirect Blocking** | Blocks automatic redirects and prompts before allowing them (enabled by default) | Always enabled to prevent malicious redirects |
 | **Cookie Toggle** | Enable or disable all cookies. When disabled, cookies are blocked from being set or sent | Enable for privacy, disable if you need cookies for website functionality |
 | **History Toggle** | Enable or disable navigation history tracking. When disabled, browser history is not saved | Disable for privacy, enable if you want to use browser history features |
+| **Blur Page Content** | Blurs all text and images on the current page for privacy | Enable when you need to quickly hide sensitive content from others viewing your screen |
 | **Accessibility Widget** | Adds accessibility tools to web pages | Enable for enhanced accessibility features |
 
 ### Advanced Privacy Settings
@@ -571,6 +585,14 @@ The Terminal is a powerful command-line interface built into ShipWr3ck, providin
 
 ### Key Features
 
+- **Native Command Prompt Integration:** Uses your system's native command prompt (cmd on Windows, terminal on macOS/Linux) for executing system commands
+- **Current Working Directory:** Displays and tracks your current directory path in the terminal prompt
+- **File System Navigation:** Use `cd` command to change directories and navigate your file system
+- **Enhanced Directory Listing:** `dir` command displays files and folders in a beautiful grid view with:
+  - Clickable directory buttons for quick navigation
+  - Human-readable file sizes (KB, MB, GB)
+  - File type indicators and modification dates
+  - Clickable files to open in EditWhat.html editor
 - **Command-Line Interface:** Terminal-style command input with instant execution
 - **50+ Commands:** Extensive command library for various tasks
 - **AI Assistant Integration:** Chat with AI models directly from the terminal using Ollama
@@ -716,6 +738,36 @@ ai explain this code
 ai help me write a function to sort an array
 ```
 
+#### 💻 System Commands
+
+The terminal integrates with your system's native command prompt, allowing you to execute any system command:
+
+| Command | Description |
+|---------|-------------|
+| `cd PATH` | Change directory (e.g., `cd C:\Users`, `cd ~`, `cd ..`) |
+| `dir` | List directory contents in a grid view (Windows) |
+| `ls` | List directory contents (macOS/Linux) |
+| `clear` | Clear the terminal output |
+| Any system command | Execute any command available in your system's command prompt |
+
+**Directory Navigation:**
+- Use `cd` to change directories (e.g., `cd Documents`, `cd C:\Users\YourName`)
+- Use `cd ..` to go up one directory level
+- Use `cd ~` to go to your home directory
+- The current directory path is displayed in the terminal prompt
+
+**Directory Listing:**
+- The `dir` command (Windows) displays files and folders in a responsive grid view
+- Each directory has a green "Open →" button to navigate into it
+- Each file has a blue "Open in Editor →" button to open it in EditWhat.html
+- File sizes are automatically converted to human-readable format (KB, MB, GB)
+- Click on directory buttons to instantly navigate and view their contents
+
+**Opening Files:**
+- Click the "Open in Editor →" button on any file in the `dir` output
+- The file will open in EditWhat.html in a new tab (or switch to existing editor tab)
+- Supports all text-based files (code files, config files, etc.)
+
 #### 🎨 Special Commands
 
 | Command | Description |
@@ -724,7 +776,6 @@ ai help me write a function to sort an array
 | `help` | Display all available commands |
 | `copyright` | Display copyright information |
 | `look` | Fun response: "What are you looking for?" |
-| `ls` / `dir` | Fun response about file directories |
 
 ### Example Usage
 
@@ -762,7 +813,24 @@ ai explain how JavaScript closures work
 
 **Dynamic Placeholders:** The input field cycles through example placeholders every 3 seconds to give you ideas of commands to try.
 
+**Native System Integration:** The terminal uses your system's native command prompt, so you can run any command that works in your regular terminal/command prompt. This includes:
+- File system operations (`cd`, `dir`, `ls`, `mkdir`, etc.)
+- System utilities and tools
+- Script execution
+- Environment variable access
+- All standard command-line tools
+
+**Grid View Directory Listing:** The `dir` command displays files and folders in a modern grid layout with:
+- Visual distinction between files (blue border) and directories (green border)
+- Clickable buttons for quick navigation
+- Formatted file sizes and dates
+- Summary statistics (file count, directory count, free space)
+
 > 💡 **Pro Tip:** Use `clear` to clear the terminal output when it gets cluttered. The terminal maintains a scrollable history of all commands and outputs.
+
+> 💡 **Pro Tip:** Click on directory buttons in the `dir` output to quickly navigate through your file system without typing `cd` commands.
+
+> 💡 **Pro Tip:** Click on file buttons in the `dir` output to instantly open files in EditWhat.html for editing.
 
 ---
 
